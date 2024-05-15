@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: bc 4000ms ease 0ms infinite alternate;
+}
+@keyframes bc {
+    0%{
+        left: 0;
+        top: 0;
+    }
+    25%{
+        top: 0;
+        left: 92vw;
+        background-color: #ff0000;
+       
+    }
+    50%{
+        top: 84vh;
+        left: 92vw;
+        background-color: yellow;
+        
+    }
+    75%{
+        top: 84vh;
+        left: 0;
+        background-color: green;
+        
+    }
+    100%{
+       top: 0vh;
+       left: 0vw;
+       background-color: blue;
+    }
+    
+}
